@@ -1,0 +1,36 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+body {
+	font: 14px/1.2 'Open Sans', sans-serif;
+	color: #000;
+	background-color: #fff;
+	min-width: 320px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: top;
+} 
+
+p, ul, ol {
+	margin: 0 0 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.2;
+	margin: 0 0 .5em;
+}
+
+.card h2 {
+	text-transform: uppercase;
+	font-size: 16px;
+	font-family: 'Quattrocento Sans', sans-serif;
+	padding-bottom: 5px;
+}
